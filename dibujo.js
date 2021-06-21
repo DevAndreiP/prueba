@@ -9,8 +9,6 @@ var yi,xf
 var xi,yf;
 var l_2
 
-
-
 while(l < lineas){
     yi = 10 * l;
     xf = 10 * (l+1)
@@ -21,8 +19,6 @@ while(l < lineas){
     console.log("linea = " + l)
     l = l +0.5
 }
-
-
 
 dibujarLineas("black",1,1,1,299)
 dibujarLineas("black",299,1,1,0)
